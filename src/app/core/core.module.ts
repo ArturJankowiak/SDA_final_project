@@ -1,12 +1,14 @@
-import { MyComponentParentComponent } from './my-component-parent/my-component-parent.component';
-import { MyComponentChildComponent } from './my-component-child/my-component-child.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { ContainerComponent } from './container/container.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
-    declarations: [MyComponentParentComponent,MyComponentChildComponent],
-    exports: [MyComponentParentComponent, MyComponentChildComponent],
+    declarations: [NavigationBarComponent, ContainerComponent, FooterComponent],
+    exports: [NavigationBarComponent, ContainerComponent, FooterComponent],
     imports: [CommonModule, RouterModule]
   })
   export class CoreModule {}
