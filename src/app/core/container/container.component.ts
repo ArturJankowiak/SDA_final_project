@@ -9,7 +9,7 @@ import { HttpService } from 'src/app/services/http.service';
   styleUrls: ['./container.component.scss']
 })
 export class ContainerComponent implements OnInit {
-  
+
   recipes: Observable<Recipes[]>;
 
   constructor(private httpService: HttpService) { }
