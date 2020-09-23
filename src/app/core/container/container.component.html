@@ -1,12 +1,7 @@
 <div class="container-body">
   <div *ngFor="let recipe of recipes | async">
-    <p>{{recipe.name}}</p>
-    <p>{{recipe.type}}</p>
-    <p>{{recipe.description}}</p>
-  </div>
-  <div *ngFor="let samplejsonItem of samplejson | async">
-    <p>{{samplejsonItem.Post}}</p>
-    <p>{{samplejsonItem.CanEdit}}</p>
-    <p>{{samplejsonItem.Version}}</p>
+    <p>{{recipe.id}}</p>
+    <p>{{recipe.title}}</p>
+    <p>{{recipe.summary}}</p>
   </div>
 </div>

@@ -7,7 +7,7 @@ import { NavigationBarComponent } from './core/navigation-bar/navigation-bar.com
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './core/footer/footer.component';
 import { ContainerComponent } from './core/container/container.component';
-import { ReadingJsonFilesComponent } from './core/reading-json-files/reading-json-files.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ReadingJsonFilesComponent } from './core/reading-json-files/reading-jso
     NavigationBarComponent,
     FooterComponent,
     ContainerComponent,
-    ReadingJsonFilesComponent
+
   ],
   imports: [
     BrowserModule,
