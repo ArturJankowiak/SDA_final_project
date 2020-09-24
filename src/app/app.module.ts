@@ -14,7 +14,7 @@ import { ContainerComponent } from './core/container/container.component';
     AppComponent,
     NavigationBarComponent,
     FooterComponent,
-    ContainerComponent,
+    ContainerComponent
 
   ],
   imports: [

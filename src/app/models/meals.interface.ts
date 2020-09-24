@@ -1,5 +1,7 @@
 export interface Meals {
-    "ID" : number;
-    "title" : string;
-    "image" : string;
-}
+    mealType: string;
+    mealName: string;
+    mealReci: string;
+    kCalories: number;
+    mealImage: string;
+    }
