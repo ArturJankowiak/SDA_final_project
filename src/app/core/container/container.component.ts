@@ -1,7 +1,7 @@
+import { Meals } from './../../models/meals.interface';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Recipes } from 'src/app/models/recipes.interface';
-import { HttpService } from 'src/app/services/http.service';
+import { MealService } from 'src/app/services/meal.service';
 
 @Component({
   selector: 'app-container',
@@ -10,12 +10,12 @@ import { HttpService } from 'src/app/services/http.service';
 })
 export class ContainerComponent implements OnInit {
 
-  recipes: Observable<Recipes[]>;
+  meals: Observable<Meals[]>;
 
-  constructor(private httpService: HttpService) { }
+  constructor(private mealService: MealService) { }
 
   ngOnInit(): void {
-    this.recipes = this.httpService.getRecipes();
+    this.meals = this.mealService.getMeals();
   }
 
 }

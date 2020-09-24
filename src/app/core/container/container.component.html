@@ -1,7 +1,7 @@
 <div class="container-body">
-  <div *ngFor="let recipe of recipes | async">
-    <p>{{recipe.id}}</p>
-    <p>{{recipe.title}}</p>
-    <p>{{recipe.summary}}</p>
+  <div *ngFor="let meal of meals | async">
+    <p>{{meal.ID}}</p>
+    <p>{{meal.title}}</p>
+    <p>{{meal.image}}</p>
   </div>
 </div>
