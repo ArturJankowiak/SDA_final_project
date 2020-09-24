@@ -8,7 +8,6 @@ import { BehaviorSubject, Observable } from 'rxjs';
   })
 
   export class MealService {
-    // private urlApi = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?diet=vegetarian&excludeIngredients=coconut&intolerances=egg%252C%20gluten&number=10&offset=0&type=main%20course&query=burger";
     private meals = new BehaviorSubject<Meals[]>([]);
     private url = './assets/somemeals.json';
 

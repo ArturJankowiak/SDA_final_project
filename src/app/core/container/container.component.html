@@ -1,7 +1,10 @@
 <div class="container-body">
-  <div *ngFor="let meal of meals | async">
-    <p>{{meal.ID}}</p>
-    <p>{{meal.title}}</p>
-    <p>{{meal.image}}</p>
+  <div class="section-left">
+    <div *ngFor="let meal of meals | async">
+      <p>{{meal.ID}}</p>
+      <p>{{meal.title}}</p>
+      <p>{{meal.image}}</p>
+    </div>
   </div>
+
 </div>
