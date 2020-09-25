@@ -4,14 +4,14 @@
         "mealName": "Łosoś z warzywami",
         "mealReci": "200g świeżej ryby oprószamy solą i pieprzem cytrynowym. Wstawiamy do piekarnika nagrzanego do 200 stopni na 25 minut. 100g fasolki szparagowej, 100g ziemniaków, 50g pietruszki gotujemy na parze (pietruszka pokrojona w talarki lub paski). Przesmażamy na oliwie z czosnkiem.",
         "kCalories": 593,
-        "mealImage": ""
+        "mealImage": "src/assets/images/lososZwarzywami.jpeg"
     },
     {
         "mealType": "MAIN",
         "mealName": "Krem z Cukinii",
         "mealReci": "225g cukinii, 20g cebuli, 100g ziemniaków i ząbek czosnku podsmażamy na oliwie. Zalewamy 300ml wywarem z warzyw. Gotujemy do miękkości. Blendujemy na głądką masę. Doprawiamy solą, pieprze, gałką muszkatołową. Jemy z tostem z pieczywa.",
         "kCalories": 412,
-        "mealImage": ""
+        "mealImage": "src/assets/images/kremZcukinii.jpeg"
     },
     {
         "mealType": "MAIN",

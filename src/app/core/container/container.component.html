@@ -1,11 +1,30 @@
 <div class="container-body">
-  <div class="section-left">
-    <div *ngFor="let meal of meals | async">
-      <p>{{meal.mealName}}</p>
-      <p>{{meal.mealType}}</p>
-      <p>{{meal.mealReci}}</p>
-      <p>{{meal.kCalories}}</p>
-      <p>{{meal.mealImage}}</p>
-    </div>
+  <div *ngFor="let meal of meals | async">
+      <div class="section-left">
+          <p>{{meal.mealName}}</p>
+          <p>{{meal.mealType}}</p>
+          <p>{{meal.kCalories}}</p>
+      </div>
+      <div class="section-right">
+        <p>{{meal.mealImage}}</p>
+      </div>
   </div>
 </div>
+
+
+
+
+
+
+
+<!-- <div class="container-body">
+  <div class="section-left">
+    <div *ngFor="let meal of meals | async">
+      <p class="malePole">{{meal.mealName}}</p>
+      <p class="malePole">{{meal.mealType}}</p>
+      <p id="duzePole">{{meal.mealReci}}</p>
+      <p class="malePole">{{meal.kCalories}}</p>
+      <p id="obrazek">{{meal.mealImage}}</p>
+    </div>
+  </div>
+</div> -->
