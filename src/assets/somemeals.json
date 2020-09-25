@@ -1,69 +1,69 @@
 [
     {
-        "mealType": "MAIN",
+        "mealType": "GŁÓWNE",
         "mealName": "Łosoś z warzywami",
         "mealReci": "200g świeżej ryby oprószamy solą i pieprzem cytrynowym. Wstawiamy do piekarnika nagrzanego do 200 stopni na 25 minut. 100g fasolki szparagowej, 100g ziemniaków, 50g pietruszki gotujemy na parze (pietruszka pokrojona w talarki lub paski). Przesmażamy na oliwie z czosnkiem.",
         "kCalories": 593,
-        "mealImage": "src/assets/images/lososZwarzywami.jpeg"
+        "mealImage": ""
     },
     {
-        "mealType": "MAIN",
+        "mealType": "GŁÓWNE",
         "mealName": "Krem z Cukinii",
         "mealReci": "225g cukinii, 20g cebuli, 100g ziemniaków i ząbek czosnku podsmażamy na oliwie. Zalewamy 300ml wywarem z warzyw. Gotujemy do miękkości. Blendujemy na głądką masę. Doprawiamy solą, pieprze, gałką muszkatołową. Jemy z tostem z pieczywa.",
         "kCalories": 412,
-        "mealImage": "src/assets/images/kremZcukinii.jpeg"
+        "mealImage": ""
     },
     {
-        "mealType": "MAIN",
-        "mealName": "Dal z soczewicy.",
+        "mealType": "GŁÓWNE",
+        "mealName": "Dal z soczewicy",
         "mealReci": "100g soczewicy podsmażamy z pokrojonymi w kosteczkę warzywami (marchew 100g, pietruszka 100g, cebula 50g. Zapewamy wywarem 250ml. Gotujemy do miękkości warzyw i soczewicy. W razie potrzeby dolewamy wywaru. Pod koniec gotowania dodajemy 100ml mleka kokosowego, curry i kumin. Zagotowujemy. Posypujemy dowolną zieleniną. Jemy z ryżem.",
         "kCalories": 735,
         "mealImage": ""
     },
     {
-        "mealType": "MAIN",
+        "mealType": "GŁÓWNE",
         "mealName": "Faszerowane talarki",
         "mealReci": "250g batata kroimy w cienkie paski. Posypujemy curry, słodką papryką, solą i pieprzem cytrynowym. 20g cebuli, czosnek i 100g piersi z kurczaka pokrojonego w cienką kosteczkę przesmażamy na oliwie. Farszem obkładamy plastry batata. Wstawiamy do piekarnika nagrzanego do 180 stopni na 30 minut.",
         "kCalories": 470,
         "mealImage": ""
     },
     {
-        "mealType": "MAIN",
+        "mealType": "GŁÓWNE",
         "mealName": "Kaszotto",
         "mealReci": "Na oliwie podsmażamy cebulę (15g) i pokrojoną w kosteczkę dynię (200g) i jabłko (pół sztuki). Dodajemy kaszę gryczaną (60g). Przesmażamy. Zalewamy wodą. Gotujemy aż kasza będzie miękka. W razie potrzeby dolewamy wody. Kaszotto doprawiamy solą, cynamonem i szczyptą curry. Posypujemy ziarnami słonecznika.",
         "kCalories": 440,
         "mealImage": ""
     },
     {
-        "mealType": "DESSERT",
+        "mealType": "DESER",
         "mealName": "Fit jogurt",
         "mealReci": "Zalewamy 2 łyżki nasion shia kokosowym jogurtem Planton (320g) i dokrawamy banana. Odstawić do lodówki na 30min.",
         "kCalories": 380,
         "mealImage": ""
     },
     {
-        "mealType": "DESSERT",
+        "mealType": "DESER",
         "mealName": "Sałatka lunchbox",
         "mealReci": "Gotujemy 40g kaszy gryczanej i przesmażamy na oleju z oliwek z garścią nasion słonecznika, na koniec dodajemy 50g nasion z granata. Posypujemy dowolną zieleniną.",
         "kCalories": 450,
         "mealImage": ""
     },
     {
-        "mealType": "DESSERT",
-        "mealName": "Zielone smoothie.",
+        "mealType": "DESER",
+        "mealName": "Zielone smoothie",
         "mealReci": "100g jabłka, 2 łyżki liści pietruszki, 1 średnie awokado, blendujemy na głądką masę w 200ml wody.",
         "kCalories": 275,
         "mealImage": ""
     },
     {
-        "mealType": "DESSERT",
+        "mealType": "DESER",
         "mealName": "Hiszpańskie tosty",
         "mealReci": "Ścieramy 2 pomidory na miąższ w 4 łyżkach oleju z oliwek, przyprawiamy solą, pieprzem i bazylią (najlepiej świeżą). Tosty smarujemy pesto własnego wyboru i przygotowaną tomatiną.",
         "kCalories": 578,
         "mealImage": ""
     },
     {
-        "mealType": "DESSERT",
+        "mealType": "DESER",
         "mealName": "Owsianka z chia",
         "mealReci": "60g płatków zalewamy mlekiem (300ml). Zagotowujemy. Zdejmujemy z ognia. Dodajemy starte na tarce jabłko, zmielony sezam (15g) i cynamon. Przykrywamy pokrywką. Odstawiamy na 5 minut.",
         "kCalories": 513,
