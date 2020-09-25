@@ -1,5 +1,54 @@
 .container-body{
     background-color: #FFEFD5;
-    height: 400px;
+    height: fit-content;
+}
+
+.section-left {
+    display: flex;
+    width: 40vw;
+    margin: 2%;
+    padding: 2%;
+    justify-items: space-around;
+}
+
+.section-left-top {
+    display: flex;
+    justify-content: flex-end;
+    height: fit-content;
+    width: 45vw;
+    margin: 2%;
+    margin-right: 0;
+    border-color: rgb(182, 105, 5);
+    border-style: groove;
+    align-items: flex-end;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    z-index: 1;
+}
+
+p {
+    display: inline-block;
+    width: 30%;
+    margin: 0.4%;
     text-align: center;
+}
+
+p:first-child {
+    text-align: left;
+}
+
+.section-left-main {
+    width: 50%;
+    text-align: justify;
+    padding: 2%;
+    padding-top: 0;
+}
+
+.photoHolder {
+    position: absolute;
+    background-color: firebrick;
+    height: 30px;
+    width: 20vw;
+    z-index: 2;
+    margin-right: 12.3vw;
 }
