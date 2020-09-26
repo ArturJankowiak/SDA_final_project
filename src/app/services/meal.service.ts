@@ -1,4 +1,4 @@
-import { Meals } from './../models/meals.interface';
+import { Meal } from './../models/meals.interface';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
@@ -8,19 +8,11 @@ import { BehaviorSubject, Observable } from 'rxjs';
   })
 
   export class MealService {
-    private meals = new BehaviorSubject<Meals[]>([]);
-    private url = './assets/somemeals.json';
+    private meals = new BehaviorSubject<Meal[]>([]);
+    
 
-    constructor(private http: HttpClient) {
-        this.fetchMeals();
-      }
 
-      fetchMeals(): void {
-        this.http.get<Meals[]>(this.url)
-          .subscribe((response: Meals[]) => this.meals.next(response));
-      }
-
-      getMeals(): Observable<Meals[]> {
+      getMeals(): Observable<Meal[]> {
         return this.meals.asObservable();
       }
     }

@@ -1,4 +1,4 @@
-export interface Meals {
+export interface Meal {
     mealType: string;
     mealName: string;
     mealReci: string;
