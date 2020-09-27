@@ -10,8 +10,6 @@ import { BehaviorSubject, Observable } from 'rxjs';
   export class MealService {
     private meals = new BehaviorSubject<Meal[]>([]);
     
-
-
       getMeals(): Observable<Meal[]> {
         return this.meals.asObservable();
       }

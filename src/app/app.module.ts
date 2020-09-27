@@ -5,7 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
-import { ViewsModule } from './views/views.module'
+import { ViewsModule } from './views/views.module';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 
@@ -21,7 +23,8 @@ import { ViewsModule } from './views/views.module'
     CoreModule,
     AppRoutingModule,
     HttpClientModule,
-    ViewsModule
+    ViewsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

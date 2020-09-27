@@ -16,4 +16,7 @@ export class RecipesComponent implements OnInit {
     this.meals = this.mealsApi.getMeals();
   }
 
-}
+
+  }
+
+
